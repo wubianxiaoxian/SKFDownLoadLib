@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SKFDownLoadLib_Example' do
+  pod 'SKFDownLoadLib', :path => '../'
+
+  target 'SKFDownLoadLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
