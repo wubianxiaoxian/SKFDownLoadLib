@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SKFDownLoadLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SKFDownLoadLib (from `../`)
+
+EXTERNAL SOURCES:
+  SKFDownLoadLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SKFDownLoadLib: a344124166d06a6df26fc287b6c3deccfc0277ac
+
+PODFILE CHECKSUM: a58d46ce7c3c228c51d4989a19d542de6cad5704
+
+COCOAPODS: 1.2.0.beta.1
