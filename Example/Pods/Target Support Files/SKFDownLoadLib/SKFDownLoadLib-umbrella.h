@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "NSString+SKFDownLoader.h"
+#import "SKFDownLoader.h"
+#import "SKFDownLoaderFileTool.h"
+#import "SKFDownLoadManager.h"
 
 FOUNDATION_EXPORT double SKFDownLoadLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char SKFDownLoadLibVersionString[];
