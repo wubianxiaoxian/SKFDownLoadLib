@@ -1,6 +1,6 @@
 {
   "name": "SKFDownLoadLib",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "summary": "SKFDownLoadLib.",
   "description": "SKFDownLoadLib xxxxxxxxxxxxxxxxxxxxxxxx.",
   "homepage": "https://github.com/wubianxiaoxian/SKFDownLoadLib",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/wubianxiaoxian/SKFDownLoadLib.git",
-    "tag": "0.5.0"
+    "tag": "0.6.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SKFDownLoadLib/Classes/**/*"
+  "source_files": "SKFDownLoadLib/Classes/**/*.h",
+  "vendored_frameworks": "SKFDownLoadLib/Products/*.framework"
 }

@@ -7,22 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		025178E0FEA197F7DAE6EA297542779B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		0D9EFCCC1FA50B7EEF001FE1775E8A5A /* SKFDownLoaderFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CD9580C4A668266D5F92B4DDFFD196 /* SKFDownLoaderFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13DD5F1DDAD1FD23F7FF150E28AC9378 /* SKFDownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B73948DEB512A4C908135502320A957B /* SKFDownLoaderFileTool.m */; };
+		0BC215B3394A8D0490D218C54AB869F0 /* Pods-SKFDownLoadLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF4D35FC59479ED3B2F57C455A3FA0C /* Pods-SKFDownLoadLib_Example-dummy.m */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		1C8448D9C1B5A10C810C77104F7D2F08 /* Pods-SKFDownLoadLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA40E6B54B861AC089BD667751AB5A4 /* Pods-SKFDownLoadLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33A0F4D6596957016EB2BB8AA848E131 /* SKFDownLoadLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4510A6E5FA59719DF27D0F6DD0F24 /* SKFDownLoadLib-dummy.m */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4C3A29CE31553EF20633EE5BA7ED9887 /* NSString+SKFDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CD33C7267C5AC03321DF1D69C7BEE8 /* NSString+SKFDownLoader.m */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		56CAA3DBF2A3502C1C1AD7F50936754D /* SKFDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3F010F2CC77E327A4A6411426E2B6 /* SKFDownLoadManager.m */; };
-		67F5CB015DE4EC1A3D1CE36736CFD54D /* Pods-SKFDownLoadLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF4D35FC59479ED3B2F57C455A3FA0C /* Pods-SKFDownLoadLib_Example-dummy.m */; };
-		688D0064DF2AC934BCA3F96487A93357 /* NSString+SKFDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA273E8B0965685A07BDA7499B24902 /* NSString+SKFDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62B40866F3D0CEC9F2D1E43254128FF1 /* Pods-SKFDownLoadLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B9715CB68494BAA04CE2C54E113B21 /* Pods-SKFDownLoadLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
@@ -30,31 +24,19 @@
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		A7E62999258E1EBEABD44520E562A845 /* SKFDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A26AEF1669AFF99D6FC05C13C21300 /* SKFDownLoader.m */; };
+		A6D11625937A78B3F28A2F212842A981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D555564732F7B96A8EDB7ABF4F46AECE /* SKFDownLoadLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD17D10163134183F541BCECA181DF89 /* SKFDownLoadLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAF8AFE3791CE938602B12DD8F9BF09A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		DF385185660B208D6274E027DE5B0928 /* Pods-SKFDownLoadLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B9715CB68494BAA04CE2C54E113B21 /* Pods-SKFDownLoadLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3769152F96350AB69C210EB9C9F66A1 /* SKFDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B98D579828B32700098CD634E9F6643 /* SKFDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E75D87AF5C187C3EE7567B7D6A890F01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		F6D4ACB73602CC9198BED4336CD2C330 /* Pods-SKFDownLoadLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7DE34B39D956E659D471892DB9FD41 /* Pods-SKFDownLoadLib_Tests-dummy.m */; };
-		F8412AFA70F1F9B582BE02C081B153E4 /* SKFDownLoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FEB9DB168BE42E04AB8C0828634850 /* SKFDownLoadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3BB72A3A805F10F7ED2E80A27948D17C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC1BD140D06B0475AEF024F038D85AD0;
-			remoteInfo = SKFDownLoadLib;
-		};
 		BD12F0237DEAD077592607F15B3C23E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -66,10 +48,10 @@
 
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		07FC4FF1B3DF30B511B8A880F5234673 /* NSString+SKFDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SKFDownLoader.h"; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		16FEB9DB168BE42E04AB8C0828634850 /* SKFDownLoadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFDownLoadManager.h; sourceTree = "<group>"; };
-		18A26AEF1669AFF99D6FC05C13C21300 /* SKFDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFDownLoader.m; sourceTree = "<group>"; };
+		239F283C40799B4FAC9A9581A9CAE660 /* SKFDownLoaderFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFDownLoaderFileTool.h; sourceTree = "<group>"; };
 		2C857E3B813F56717AA15978F376B730 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E0E58B58B41C1E564F0D55880439C2D /* Pods-SKFDownLoadLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFDownLoadLib_Example-resources.sh"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -77,66 +59,56 @@
 		39F16BAE2934981ACCF75D14A51B901F /* Pods-SKFDownLoadLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKFDownLoadLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3B98D579828B32700098CD634E9F6643 /* SKFDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFDownLoader.h; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		3EA273E8B0965685A07BDA7499B24902 /* NSString+SKFDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SKFDownLoader.h"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		46CD33C7267C5AC03321DF1D69C7BEE8 /* NSString+SKFDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKFDownLoader.m"; sourceTree = "<group>"; };
 		487786AF10821D687E7CD35D2EF9FFEF /* Pods-SKFDownLoadLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFDownLoadLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		494D27768E73F25E23C094771032B98B /* Pods-SKFDownLoadLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKFDownLoadLib_Example.modulemap"; sourceTree = "<group>"; };
-		497F1C3FBFAF9AEE3B9CD97CCCDBAEF5 /* SKFDownLoadLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKFDownLoadLib-prefix.pch"; sourceTree = "<group>"; };
-		4ED4510A6E5FA59719DF27D0F6DD0F24 /* SKFDownLoadLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKFDownLoadLib-dummy.m"; sourceTree = "<group>"; };
 		50B9715CB68494BAA04CE2C54E113B21 /* Pods-SKFDownLoadLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKFDownLoadLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5A188D7D41E5EB41684E351691011E19 /* Pods-SKFDownLoadLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFDownLoadLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		5EA40E6B54B861AC089BD667751AB5A4 /* Pods-SKFDownLoadLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKFDownLoadLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		62A4E438EA6DD17C85E5C9ECEC5F0B34 /* SKFDownLoadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFDownLoadManager.h; sourceTree = "<group>"; };
 		6379F0062232C88900EC9BAFBC10E4BC /* Pods-SKFDownLoadLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFDownLoadLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6699EAD790AD791598D0CA072265F35C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D322572186694B3A5069313CF7E17DB /* Pods_SKFDownLoadLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKFDownLoadLib_Example.framework; path = "Pods-SKFDownLoadLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		713E5E2A961A8C1C1323C1A7327EF3E3 /* Pods_SKFDownLoadLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKFDownLoadLib_Tests.framework; path = "Pods-SKFDownLoadLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		87351D7E66D2D41C42DAD3CE460E112E /* Pods-SKFDownLoadLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFDownLoadLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		91CD9580C4A668266D5F92B4DDFFD196 /* SKFDownLoaderFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFDownLoaderFileTool.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95F08A3D94C39FBD3E51BB5A0CDC4849 /* Pods_SKFDownLoadLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKFDownLoadLib_Example.framework; path = "Pods-SKFDownLoadLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		965FF5E89E9C99EA20A5DDB9F0DF9393 /* SKFDownLoadLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SKFDownLoadLib.modulemap; sourceTree = "<group>"; };
 		9B7DE34B39D956E659D471892DB9FD41 /* Pods-SKFDownLoadLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKFDownLoadLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		9FC4483704AAD0E9D95BA3F1ABF02C6B /* Pods-SKFDownLoadLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFDownLoadLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		ACD3F010F2CC77E327A4A6411426E2B6 /* SKFDownLoadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFDownLoadManager.m; sourceTree = "<group>"; };
-		ACF2BD77743F1C06ABB148D1948914B2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A28B424ED11C248D817244224A31D /* Pods-SKFDownLoadLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFDownLoadLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B3CE07FDAFCEC566F2B5C8BF99E31266 /* Pods-SKFDownLoadLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFDownLoadLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B73948DEB512A4C908135502320A957B /* SKFDownLoaderFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFDownLoaderFileTool.m; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BD17D10163134183F541BCECA181DF89 /* SKFDownLoadLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKFDownLoadLib-umbrella.h"; sourceTree = "<group>"; };
 		BF9B401561866C0F9E2F99D28E82DDB6 /* Pods-SKFDownLoadLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKFDownLoadLib_Tests.modulemap"; sourceTree = "<group>"; };
 		C2C38BF68F8DA96C98C5EF31871D3768 /* Pods-SKFDownLoadLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKFDownLoadLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3D44695AF0DA904EEEA4DF14B839F70 /* Pods_SKFDownLoadLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKFDownLoadLib_Tests.framework; path = "Pods-SKFDownLoadLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47F868895087D3FB9C9D6845159BACC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DA1DD52C6BFFC43D43026B843D3A6D1F /* SKFDownLoadLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKFDownLoadLib.xcconfig; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E9514D9B84F50CD9A5D7CDDC63618E0B /* SKFDownLoadLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKFDownLoadLib.framework; path = SKFDownLoadLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5EE76371BE180EAE1E2CC5692F4851 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CEF704E6B116B4AC784EFB84880B52 /* Pods-SKFDownLoadLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKFDownLoadLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5D3E1C4E735F43854411282F765463B /* SKFDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFDownLoader.h; sourceTree = "<group>"; };
 		FBF4D35FC59479ED3B2F57C455A3FA0C /* Pods-SKFDownLoadLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKFDownLoadLib_Example-dummy.m"; sourceTree = "<group>"; };
 		FE4AACB165DE68B222B6D45ABBB0919C /* Pods-SKFDownLoadLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKFDownLoadLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEE041244370023968CEBD69504E8674 /* SKFDownLoadLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKFDownLoadLib.framework; path = SKFDownLoadLib/Products/SKFDownLoadLib.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C552667DEDF00961C4143FE0A10C6BD /* Frameworks */ = {
+		04E38273239EEAE3D837584A5318A8FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				025178E0FEA197F7DAE6EA297542779B /* Foundation.framework in Frameworks */,
+				A6D11625937A78B3F28A2F212842A981 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,14 +120,6 @@
 				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
 				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
 				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78272C32EBAE137705CA7AAA31315E91 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E75D87AF5C187C3EE7567B7D6A890F01 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,15 +150,6 @@
 			);
 			name = "Pods-SKFDownLoadLib_Example";
 			path = "Target Support Files/Pods-SKFDownLoadLib_Example";
-			sourceTree = "<group>";
-		};
-		0743193B1DC49FD339749571E9353B2E /* SKFDownLoadLib */ = {
-			isa = PBXGroup;
-			children = (
-				61F25D144AF18F1473E3BF7CD46C812B /* Classes */,
-			);
-			name = SKFDownLoadLib;
-			path = SKFDownLoadLib;
 			sourceTree = "<group>";
 		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
@@ -231,7 +186,7 @@
 		1D3E97098D0F651F6A2FF73ECCB2AA96 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E3B6E5DB9FB2F2F21646B50BA01433E6 /* SKFDownLoadLib */,
+				46008C74A8568DC07F30A21CA4712459 /* SKFDownLoadLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -247,29 +202,40 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		3799B28AD676DFC016F990944542D6D9 /* SKFDownLoadLib */ = {
+		4310E3B7F9F8841E71F52517E3068AB4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3EA273E8B0965685A07BDA7499B24902 /* NSString+SKFDownLoader.h */,
-				46CD33C7267C5AC03321DF1D69C7BEE8 /* NSString+SKFDownLoader.m */,
-				3B98D579828B32700098CD634E9F6643 /* SKFDownLoader.h */,
-				18A26AEF1669AFF99D6FC05C13C21300 /* SKFDownLoader.m */,
-				91CD9580C4A668266D5F92B4DDFFD196 /* SKFDownLoaderFileTool.h */,
-				B73948DEB512A4C908135502320A957B /* SKFDownLoaderFileTool.m */,
-				16FEB9DB168BE42E04AB8C0828634850 /* SKFDownLoadManager.h */,
-				ACD3F010F2CC77E327A4A6411426E2B6 /* SKFDownLoadManager.m */,
+				CF838DDF2F61DE89B09F42DF1740F323 /* SKFDownLoadLib */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		45648460CC8F104FF221E7C6C6DB4D47 /* SKFDownLoadLib */ = {
+			isa = PBXGroup;
+			children = (
+				4310E3B7F9F8841E71F52517E3068AB4 /* Classes */,
 			);
 			name = SKFDownLoadLib;
 			path = SKFDownLoadLib;
 			sourceTree = "<group>";
 		};
-		61F25D144AF18F1473E3BF7CD46C812B /* Classes */ = {
+		46008C74A8568DC07F30A21CA4712459 /* SKFDownLoadLib */ = {
 			isa = PBXGroup;
 			children = (
-				3799B28AD676DFC016F990944542D6D9 /* SKFDownLoadLib */,
+				771481A7531461DD74724DE00BB2F92D /* Frameworks */,
+				45648460CC8F104FF221E7C6C6DB4D47 /* SKFDownLoadLib */,
 			);
-			name = Classes;
-			path = Classes;
+			name = SKFDownLoadLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		771481A7531461DD74724DE00BB2F92D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE041244370023968CEBD69504E8674 /* SKFDownLoadLib.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -279,7 +245,7 @@
 				1D3E97098D0F651F6A2FF73ECCB2AA96 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				AAD2B1E48FB5C2661EBE336B7E91ED7B /* Products */,
+				AF88B86A0C7B8066DE27878C6548C779 /* Products */,
 				159149443915EE436282E070F9B74242 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -321,39 +287,26 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		AAD2B1E48FB5C2661EBE336B7E91ED7B /* Products */ = {
+		AF88B86A0C7B8066DE27878C6548C779 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACF2BD77743F1C06ABB148D1948914B2 /* FBSnapshotTestCase.framework */,
-				95F08A3D94C39FBD3E51BB5A0CDC4849 /* Pods_SKFDownLoadLib_Example.framework */,
-				713E5E2A961A8C1C1323C1A7327EF3E3 /* Pods_SKFDownLoadLib_Tests.framework */,
-				E9514D9B84F50CD9A5D7CDDC63618E0B /* SKFDownLoadLib.framework */,
+				EF5EE76371BE180EAE1E2CC5692F4851 /* FBSnapshotTestCase.framework */,
+				6D322572186694B3A5069313CF7E17DB /* Pods_SKFDownLoadLib_Example.framework */,
+				C3D44695AF0DA904EEEA4DF14B839F70 /* Pods_SKFDownLoadLib_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B17A4B86B6145E3DDC03D3B3C86762E5 /* Support Files */ = {
+		CF838DDF2F61DE89B09F42DF1740F323 /* SKFDownLoadLib */ = {
 			isa = PBXGroup;
 			children = (
-				6699EAD790AD791598D0CA072265F35C /* Info.plist */,
-				965FF5E89E9C99EA20A5DDB9F0DF9393 /* SKFDownLoadLib.modulemap */,
-				DA1DD52C6BFFC43D43026B843D3A6D1F /* SKFDownLoadLib.xcconfig */,
-				4ED4510A6E5FA59719DF27D0F6DD0F24 /* SKFDownLoadLib-dummy.m */,
-				497F1C3FBFAF9AEE3B9CD97CCCDBAEF5 /* SKFDownLoadLib-prefix.pch */,
-				BD17D10163134183F541BCECA181DF89 /* SKFDownLoadLib-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SKFDownLoadLib";
-			sourceTree = "<group>";
-		};
-		E3B6E5DB9FB2F2F21646B50BA01433E6 /* SKFDownLoadLib */ = {
-			isa = PBXGroup;
-			children = (
-				0743193B1DC49FD339749571E9353B2E /* SKFDownLoadLib */,
-				B17A4B86B6145E3DDC03D3B3C86762E5 /* Support Files */,
+				07FC4FF1B3DF30B511B8A880F5234673 /* NSString+SKFDownLoader.h */,
+				F5D3E1C4E735F43854411282F765463B /* SKFDownLoader.h */,
+				239F283C40799B4FAC9A9581A9CAE660 /* SKFDownLoaderFileTool.h */,
+				62A4E438EA6DD17C85E5C9ECEC5F0B34 /* SKFDownLoadManager.h */,
 			);
 			name = SKFDownLoadLib;
-			path = ../..;
+			path = SKFDownLoadLib;
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -388,31 +341,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B48E86BE1C23D1D66C858EDB3EDD474 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				688D0064DF2AC934BCA3F96487A93357 /* NSString+SKFDownLoader.h in Headers */,
-				E3769152F96350AB69C210EB9C9F66A1 /* SKFDownLoader.h in Headers */,
-				0D9EFCCC1FA50B7EEF001FE1775E8A5A /* SKFDownLoaderFileTool.h in Headers */,
-				D555564732F7B96A8EDB7ABF4F46AECE /* SKFDownLoadLib-umbrella.h in Headers */,
-				F8412AFA70F1F9B582BE02C081B153E4 /* SKFDownLoadManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8B2F37E03AD1856EB4FBBE4F985E2309 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C8448D9C1B5A10C810C77104F7D2F08 /* Pods-SKFDownLoadLib_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D4F6E7CEFD2D48429CB45DF995B8D4F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF385185660B208D6274E027DE5B0928 /* Pods-SKFDownLoadLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +361,14 @@
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A7344709662144A07FCB6545FE1964 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B40866F3D0CEC9F2D1E43254128FF1 /* Pods-SKFDownLoadLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +389,7 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = ACF2BD77743F1C06ABB148D1948914B2 /* FBSnapshotTestCase.framework */;
+			productReference = EF5EE76371BE180EAE1E2CC5692F4851 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3B994BD66456E3F7E81841FCB7DC66AD /* Pods-SKFDownLoadLib_Tests */ = {
@@ -466,42 +407,24 @@
 			);
 			name = "Pods-SKFDownLoadLib_Tests";
 			productName = "Pods-SKFDownLoadLib_Tests";
-			productReference = 713E5E2A961A8C1C1323C1A7327EF3E3 /* Pods_SKFDownLoadLib_Tests.framework */;
+			productReference = C3D44695AF0DA904EEEA4DF14B839F70 /* Pods_SKFDownLoadLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DC1BD140D06B0475AEF024F038D85AD0 /* SKFDownLoadLib */ = {
+		D36F5C910FE3F09C50A733E8A3078A6F /* Pods-SKFDownLoadLib_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA1DC36D931E3EC3CDD1182348DEE841 /* Build configuration list for PBXNativeTarget "SKFDownLoadLib" */;
+			buildConfigurationList = 3F73ABA62D52FA7105621055E4466AB7 /* Build configuration list for PBXNativeTarget "Pods-SKFDownLoadLib_Example" */;
 			buildPhases = (
-				DEC5463577512F4C1B9AC85A34F57818 /* Sources */,
-				0C552667DEDF00961C4143FE0A10C6BD /* Frameworks */,
-				3B48E86BE1C23D1D66C858EDB3EDD474 /* Headers */,
+				B5BF2F2D01CAC8100E5035408B4F4129 /* Sources */,
+				04E38273239EEAE3D837584A5318A8FF /* Frameworks */,
+				C9A7344709662144A07FCB6545FE1964 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = SKFDownLoadLib;
-			productName = SKFDownLoadLib;
-			productReference = E9514D9B84F50CD9A5D7CDDC63618E0B /* SKFDownLoadLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F74E48B8EF47FE6C17CF168F0B6DF436 /* Pods-SKFDownLoadLib_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EBEF126147A625136268A17FCC90FFC3 /* Build configuration list for PBXNativeTarget "Pods-SKFDownLoadLib_Example" */;
-			buildPhases = (
-				2E6BE8F417B78CEE9A39FD1E9C35F5EF /* Sources */,
-				78272C32EBAE137705CA7AAA31315E91 /* Frameworks */,
-				9D4F6E7CEFD2D48429CB45DF995B8D4F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0F763F4467AE5F27B25026C6CD20F36 /* PBXTargetDependency */,
 			);
 			name = "Pods-SKFDownLoadLib_Example";
 			productName = "Pods-SKFDownLoadLib_Example";
-			productReference = 95F08A3D94C39FBD3E51BB5A0CDC4849 /* Pods_SKFDownLoadLib_Example.framework */;
+			productReference = 6D322572186694B3A5069313CF7E17DB /* Pods_SKFDownLoadLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -521,27 +444,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = AAD2B1E48FB5C2661EBE336B7E91ED7B /* Products */;
+			productRefGroup = AF88B86A0C7B8066DE27878C6548C779 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				F74E48B8EF47FE6C17CF168F0B6DF436 /* Pods-SKFDownLoadLib_Example */,
+				D36F5C910FE3F09C50A733E8A3078A6F /* Pods-SKFDownLoadLib_Example */,
 				3B994BD66456E3F7E81841FCB7DC66AD /* Pods-SKFDownLoadLib_Tests */,
-				DC1BD140D06B0475AEF024F038D85AD0 /* SKFDownLoadLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E6BE8F417B78CEE9A39FD1E9C35F5EF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67F5CB015DE4EC1A3D1CE36736CFD54D /* Pods-SKFDownLoadLib_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		30E661ABA6A8EBAD7F12054D763BE5F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -550,15 +464,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEC5463577512F4C1B9AC85A34F57818 /* Sources */ = {
+		B5BF2F2D01CAC8100E5035408B4F4129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3A29CE31553EF20633EE5BA7ED9887 /* NSString+SKFDownLoader.m in Sources */,
-				A7E62999258E1EBEABD44520E562A845 /* SKFDownLoader.m in Sources */,
-				13DD5F1DDAD1FD23F7FF150E28AC9378 /* SKFDownLoaderFileTool.m in Sources */,
-				33A0F4D6596957016EB2BB8AA848E131 /* SKFDownLoadLib-dummy.m in Sources */,
-				56CAA3DBF2A3502C1C1AD7F50936754D /* SKFDownLoadManager.m in Sources */,
+				0BC215B3394A8D0490D218C54AB869F0 /* Pods-SKFDownLoadLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,12 +496,6 @@
 			name = FBSnapshotTestCase;
 			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
 			targetProxy = BD12F0237DEAD077592607F15B3C23E2 /* PBXContainerItemProxy */;
-		};
-		F0F763F4467AE5F27B25026C6CD20F36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SKFDownLoadLib;
-			target = DC1BD140D06B0475AEF024F038D85AD0 /* SKFDownLoadLib */;
-			targetProxy = 3BB72A3A805F10F7ED2E80A27948D17C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -688,106 +592,6 @@
 			};
 			name = Release;
 		};
-		7872A294BD80586641F987A888055B6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA1DD52C6BFFC43D43026B843D3A6D1F /* SKFDownLoadLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SKFDownLoadLib/SKFDownLoadLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKFDownLoadLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKFDownLoadLib/SKFDownLoadLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SKFDownLoadLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7C46A528D15AD8B71C6F994573389583 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA1DD52C6BFFC43D43026B843D3A6D1F /* SKFDownLoadLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SKFDownLoadLib/SKFDownLoadLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKFDownLoadLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKFDownLoadLib/SKFDownLoadLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SKFDownLoadLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		95A51CBCC14CB62775193F7F1E90EF0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87351D7E66D2D41C42DAD3CE460E112E /* Pods-SKFDownLoadLib_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SKFDownLoadLib_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SKFDownLoadLib_Example/Pods-SKFDownLoadLib_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SKFDownLoadLib_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		AA00ACD8AA2D6F25DC211A3B839A7E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9FC4483704AAD0E9D95BA3F1ABF02C6B /* Pods-SKFDownLoadLib_Tests.debug.xcconfig */;
@@ -821,6 +625,78 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6A952EA477419BA691B452B8DDBD321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CE07FDAFCEC566F2B5C8BF99E31266 /* Pods-SKFDownLoadLib_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFDownLoadLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFDownLoadLib_Example/Pods-SKFDownLoadLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFDownLoadLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B79C80CB4174EFE3D78454A0196B134B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87351D7E66D2D41C42DAD3CE460E112E /* Pods-SKFDownLoadLib_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFDownLoadLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFDownLoadLib_Example/Pods-SKFDownLoadLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFDownLoadLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -861,42 +737,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		C3284D86A41F3396FA6EAB08BBAC4D58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3CE07FDAFCEC566F2B5C8BF99E31266 /* Pods-SKFDownLoadLib_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SKFDownLoadLib_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SKFDownLoadLib_Example/Pods-SKFDownLoadLib_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SKFDownLoadLib_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		E20D352CE51285CB7B4E57F58AAFE150 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -982,11 +822,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA1DC36D931E3EC3CDD1182348DEE841 /* Build configuration list for PBXNativeTarget "SKFDownLoadLib" */ = {
+		3F73ABA62D52FA7105621055E4466AB7 /* Build configuration list for PBXNativeTarget "Pods-SKFDownLoadLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C46A528D15AD8B71C6F994573389583 /* Debug */,
-				7872A294BD80586641F987A888055B6D /* Release */,
+				B79C80CB4174EFE3D78454A0196B134B /* Debug */,
+				B6A952EA477419BA691B452B8DDBD321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -996,15 +836,6 @@
 			buildConfigurations = (
 				AA00ACD8AA2D6F25DC211A3B839A7E39 /* Debug */,
 				E20D352CE51285CB7B4E57F58AAFE150 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EBEF126147A625136268A17FCC90FFC3 /* Build configuration list for PBXNativeTarget "Pods-SKFDownLoadLib_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95A51CBCC14CB62775193F7F1E90EF0A /* Debug */,
-				C3284D86A41F3396FA6EAB08BBAC4D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
