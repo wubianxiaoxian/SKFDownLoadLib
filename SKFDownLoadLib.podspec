@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKFDownLoadLib'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'SKFDownLoadLib.'
 
 
@@ -19,8 +19,15 @@ SKFDownLoadLib xxxxxxxxxxxxxxxxxxxxxxxx.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SKFDownLoadLib/Classes/**/*'
-  
+# 借助环境变量的值, 来控制, podspec文件, 加载的流程
+if ENV["IS_B"] || ENV["XMGDownLoadLib"]
+s.source_files = 'SKFDownLoadLib/Classes/**/*.h'
+s.vendored_frameworks = "SKFDownLoadLib/Products/*.framework"
+else
+s.source_files = 'SKFDownLoadLib/Classes/**/*'
+
+end
+
   # s.resource_bundles = {
   #   'SKFDownLoadLib' => ['SKFDownLoadLib/Assets/*.png']
   # }

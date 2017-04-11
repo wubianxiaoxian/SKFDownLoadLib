@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SKFDownLoadLib (0.2.0)
+  - SKFDownLoadLib (0.3.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  SKFDownLoadLib: 687379b72be99b4762fe93bf1ca04e2c5f8b711c
+  SKFDownLoadLib: c425341db3a7554648f1ca3ae23213822b8a942e
 
 PODFILE CHECKSUM: cd77cf51146f38760fbdf5f55861aa64c86c9282
 
